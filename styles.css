@@ -1,0 +1,60 @@
+body{
+    align-items:center;
+    justify-content: center;
+}
+video{
+    position:relative;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+      position: fixed;
+      top: 0%;
+      right: 10%;
+      padding: 10px;
+      background-color: none;
+      font-size: small;
+}
+.menu button{
+    padding:10px;
+    background-color: #551a8b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+    a{
+        display: inline;
+        color:#fff;
+    }
+}
+.bar{
+        position:absolute;
+        top: 30%;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to right, #ff3366, #2196F3);
+        /* Adjust the direction and color stops as needed */
+        border-radius: 10px; /* Optional: Add rounded corners */
+        color: #fff; /* Optional: Set text color for better contrast */
+        text-align: center; /* Optional: Center the text */
+        line-height: 200px; /* Optional: Center the text vertically */
+        a{
+            color:aliceblue;
+        }
+    }
+    #home{
+        padding: 10px;
+        margin: 10px;
+    }
+    #icon{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
